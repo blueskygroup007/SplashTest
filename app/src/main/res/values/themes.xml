@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    <style name="Theme.SplashTest" parent="Theme.SplashScreen" />
+
+            <style name="Theme.SplashTest.Starting" parent="Theme.SplashScreen">
+
+                <item name="postSplashScreenTheme">@style/Theme.SplashTest</item>
+                <item name="android:windowSplashScreenBackground">@color/teal_200</item>
+                <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_android_black_24dp</item>
+                <item name="windowSplashScreenAnimationDuration">500</item>
+                <item name="android:windowSplashScreenBrandingImage">@mipmap/blueskygroup</item>
+            </style>
+
+        <style name="JetpackSplashTheme" parent="JetpackSplashTheme.Base">
+        </style>
+
+        <style name="JetpackSplashTheme.Base" parent="Theme.SplashScreen">
+            ...
+            <item name="windowSplashScreenAnimatedIcon">@drawable/girl</item>
+            <item name="windowSplashScreenAnimationDuration">500</item>
+            <item name="windowSplashScreenBackground">@color/purple_200</item>
+
+            <item name="postSplashScreenTheme">@style/SplashActivityTheme</item>
+        </style>-->
+
+    <style name="Theme.App" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <!--todo:SplashScreen 2: 12版本以下的样式,需要继承SplashScreen,name不需要android:-->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/girl</item>
+        <item name="postSplashScreenTheme">@style/Theme.App</item>
+    </style>
+</resources>

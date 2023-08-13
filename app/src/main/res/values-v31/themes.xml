@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--todo:SplashScreen 3:-->
+    <!--12版本以上的样式,需要继承AppCompat,name需要"android:",但是postSplashScreenTheme无效???-->
+
+    <style name="Theme.App.Starting" parent="Theme.AppCompat.NoActionBar">
+        <item name="postSplashScreenTheme">@style/Theme.App</item>
+        <item name="android:windowSplashScreenBackground">@color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">
+            @drawable/baseline_baby_changing_station_24
+        </item>
+        <item name="android:windowSplashScreenBrandingImage">@mipmap/blueskygroup</item>
+    </style>
+
+
+</resources>
